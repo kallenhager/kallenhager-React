@@ -13,7 +13,7 @@ const Home = () => {
         <meta property="og:title" content="kallenhager" />
       </Helmet>
       <div className={styles['Main']}>
-        <div className={styles['White-Card']}>
+        <header className={styles['White-Card']}>
           <div className={styles['container1']}>
             <img
               alt="image"
@@ -45,8 +45,9 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </header>
         <div
+          id="metacritic"
           className={` ${styles['White-Card1']} ${projectStyles['projectbox']} `}
         >
           <div className={styles['Format-Card']}>
@@ -121,21 +122,24 @@ const Home = () => {
       </div>
       <div className={styles['Sidebar']}>
         <nav className={styles['Nav']}>
-          <span
-            className={` ${projectStyles['navbar-Item']} ${projectStyles['navitem']} `}
-          >
-            METACRITIC SCRAPE &amp; ANALYIS
-          </span>
-          <span
-            className={` ${styles['text31']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
-          >
-            IMPLICIT ATTITUDES ERP EXAMINATION
-          </span>
-          <span
-            className={` ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
-          >
-            MINOR CANNABINIODS REVIEW
-          </span>
+          <div className={styles['container4']}>
+            <a
+              href="#metacritic"
+              className={` ${styles['link']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} `}
+            >
+              METACRITIC SCRAPE &amp; ANALYIS
+            </a>
+            <span
+              className={` ${styles['text30']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
+            >
+              IMPLICIT ATTITUDES ERP EXAMINATION
+            </span>
+            <span
+              className={` ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
+            >
+              MINOR CANNABINIODS REVIEW
+            </span>
+          </div>
         </nav>
       </div>
     </div>

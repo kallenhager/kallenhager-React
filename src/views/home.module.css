@@ -147,7 +147,7 @@
 }
 .Sidebar {
   width: 400px;
-  height: 581px;
+  height: 780px;
   display: flex;
   overflow: auto;
   padding-top: 42px;
@@ -158,11 +158,19 @@
 }
 .Nav {
   color: white;
-  width: 227px;
   position: fixed;
   mix-blend-mode: difference;
 }
-.text31 {
+.container4 {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 50px;
+  flex-direction: column;
+}
+.link {
+  text-decoration: none;
+}
+.text30 {
   font-style: normal;
 }
 @media(max-width: 991px) {
