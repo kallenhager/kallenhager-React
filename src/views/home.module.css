@@ -157,12 +157,12 @@
   padding-bottom: 42px;
 }
 .Nav {
+  color: white;
   width: 227px;
+  position: fixed;
+  mix-blend-mode: difference;
 }
 .text31 {
-  font-style: normal;
-}
-.text32 {
   font-style: normal;
 }
 @media(max-width: 991px) {

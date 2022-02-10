@@ -120,7 +120,7 @@ const Home = () => {
         </div>
       </div>
       <div className={styles['Sidebar']}>
-        <nav className={` ${styles['Nav']} ${projectStyles['navbar']} `}>
+        <nav className={styles['Nav']}>
           <span
             className={` ${projectStyles['navbar-Item']} ${projectStyles['navitem']} `}
           >
@@ -132,7 +132,7 @@ const Home = () => {
             IMPLICIT ATTITUDES ERP EXAMINATION
           </span>
           <span
-            className={` ${styles['text32']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
+            className={` ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
           >
             MINOR CANNABINIODS REVIEW
           </span>

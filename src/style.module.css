@@ -90,6 +90,7 @@
   align-self: flex-end;
   align-items: flex-start;
   flex-direction: column;
+  mix-blend-mode: difference;
 }
 .navitem {
   align-self: flex-end;
@@ -98,6 +99,7 @@
   font-family: serif;
   margin-bottom: var(--dl-space-space-fourunits);
   letter-spacing: 1;
+  mix-blend-mode: difference;
 }
 .projectbox {
   width: 80%;
