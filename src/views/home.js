@@ -143,7 +143,7 @@ const Home = () => {
           </div>
         </div>
         <div
-          id="cannabinoids"
+          id="review"
           className={` ${styles['White-Card3']} ${projectStyles['projectbox']} `}
         >
           <div className={styles['Format-Card2']}>
@@ -199,7 +199,7 @@ const Home = () => {
           </div>
         </div>
         <div
-          id="cannabinoids"
+          id="backtoptop"
           className={` ${styles['White-Card4']} ${projectStyles['backtotop']} ${projectStyles['projectbox']} `}
         >
           <div className={styles['Format-Card3']}>
@@ -227,7 +227,7 @@ const Home = () => {
               IMPLICIT ATTITUDES ERP EXAMINATION
             </a>
             <a
-              href="#cannabinoids"
+              href="#review"
               className={` ${styles['link6']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
             >
               MINOR CANNABINIODS REVIEW
