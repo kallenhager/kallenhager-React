@@ -30,10 +30,10 @@ const Home = () => {
                   className={` ${styles['text02']} ${projectStyles['headingText']} `}
                 >
                   <span>
-                    I&apos;m an aspiring data scientist with interests in
-                    consumer behavior, emotional processing, and health. Last
-                    May I completed a B.S. in Biomedical Sciences and B.A. in
-                    Psychology from the University of South Florida.
+                    I&apos;m interested in consumer behavior, emotional
+                    processing, and health. Last May I completed a B.S. in
+                    Biomedical Sciences and B.A. in Psychology from the
+                    University of South Florida.
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
