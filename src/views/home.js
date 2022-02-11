@@ -13,8 +13,8 @@ const Home = () => {
         <meta property="og:title" content="kallenhager" />
       </Helmet>
       <div id="main" className={styles['Main']}>
-        <div id="top" className={styles['Container01']}></div>
-        <header id="hi" className={styles['White-Card']}>
+        <div id="hi" className={styles['Container01']}></div>
+        <header id="header" className={styles['White-Card']}>
           <div className={styles['container02']}>
             <img
               alt="image"
@@ -204,7 +204,7 @@ const Home = () => {
         >
           <div className={styles['Format-Card3']}>
             <div className={styles['container08']}>
-              <a href="#top" className={styles['Link3']}>
+              <a href="#hi" className={styles['Link3']}>
                 <span>Back to TOP</span>
               </a>
             </div>
