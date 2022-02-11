@@ -12,19 +12,20 @@ const Home = () => {
         <title>kallenhager</title>
         <meta property="og:title" content="kallenhager" />
       </Helmet>
-      <div className={styles['Main']}>
-        <header className={styles['White-Card']}>
-          <div className={styles['container1']}>
+      <div id="main" className={styles['Main']}>
+        <div id="top" className={styles['Container01']}></div>
+        <header id="hi" className={styles['White-Card']}>
+          <div className={styles['container02']}>
             <img
               alt="image"
               src="/playground_assets/0kallen-300h.jpg"
               className={styles['image']}
             />
-            <div className={styles['container2']}>
+            <div className={styles['container03']}>
               <span className={` ${styles['text']} ${projectStyles['hi']} `}>
                 <span>Hi, I&apos;m Kallen</span>
               </span>
-              <div className={styles['container3']}>
+              <div className={styles['container04']}>
                 <span
                   className={` ${styles['text02']} ${projectStyles['headingText']} `}
                 >
@@ -78,7 +79,7 @@ const Home = () => {
                   Which critic&apos;s scores correlate best with sales?
                 </span>
               </span>
-              <div className={styles['container4']}>
+              <div className={styles['container05']}>
                 <a
                   href="https://github.com/kallenhager/metacritic_scraper"
                   target="_blank"
@@ -121,7 +122,7 @@ const Home = () => {
                   implicit measures of sexual prejudice
                 </span>
               </span>
-              <div className={styles['container5']}>
+              <div className={styles['container06']}>
                 <a
                   href="https://docs.google.com/document/d/1vtWn-o7sblhUrK1HUBInWz8Kg9bGAFtm/edit?usp=sharing&amp;ouid=106166205784524408384&amp;rtpof=true&amp;sd=true"
                   target="_blank"
@@ -177,7 +178,7 @@ const Home = () => {
                   confidently recommended by clinicians.
                 </span>
               </span>
-              <div className={styles['container6']}>
+              <div className={styles['container07']}>
                 <a
                   href="https://1drv.ms/w/s!Ai843pWZk8qtgfpOsdHPa2Nm0m-ezA?e=0UVF17"
                   target="_blank"
@@ -197,10 +198,22 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div
+          id="cannabinoids"
+          className={` ${styles['White-Card4']} ${projectStyles['backtotop']} ${projectStyles['projectbox']} `}
+        >
+          <div className={styles['Format-Card3']}>
+            <div className={styles['container08']}>
+              <a href="#top" className={styles['Link3']}>
+                <span>Back to TOP</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
       <div className={styles['Sidebar']}>
         <nav className={styles['Nav']}>
-          <div className={styles['container7']}>
+          <div className={styles['container09']}>
             <a
               href="#metacritic"
               className={` ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
@@ -209,13 +222,13 @@ const Home = () => {
             </a>
             <a
               href="#erp"
-              className={` ${styles['link4']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
+              className={` ${styles['link5']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
             >
               IMPLICIT ATTITUDES ERP EXAMINATION
             </a>
             <a
               href="#cannabinoids"
-              className={` ${styles['link5']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
+              className={` ${styles['link6']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
             >
               MINOR CANNABINIODS REVIEW
             </a>

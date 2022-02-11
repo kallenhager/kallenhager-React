@@ -126,6 +126,9 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+.backtotop {
+  direction: ltr;
+}
 .headingText {
   font-size: 20px;
   font-family: Noto Sans;
@@ -154,7 +157,7 @@
   text-decoration: none;
 }
 .card-Heading {
-  font-size: 24px;
+  font-size: 26px;
   font-style: normal;
   font-family: Overpass;
   font-weight: 700;
