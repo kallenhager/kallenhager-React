@@ -9,7 +9,7 @@
   --dl-color-gray-black: #000000;
   --dl-color-gray-white: #FFFFFF;
   --dl-space-space-unit: 8px;
-  --dl-color-primary-100: #0349cbff;
+  --dl-color-primary-100: #2adeb5ff;
   --dl-color-primary-300: #0074F0;
   --dl-color-primary-500: #14A9FF;
   --dl-color-primary-700: #85DCFF;
@@ -72,12 +72,12 @@
   background-color: var(--dl-color-gray-white);
 }
 .link {
-  font-size: 16px;
+  font-size: 28px;
   font-family: Overpass;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.55;
   text-transform: uppercase;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .TopLink {
   margin-right: var(--dl-space-space-tripleunit);
@@ -102,11 +102,12 @@
   mix-blend-mode: difference;
 }
 .projectbox {
+  color: var(--dl-color-gray-white);
   width: 80%;
   height: auto;
   display: flex;
   align-self: flex-end;
-  margin-top: 50px;
+  margin-top: var(--dl-space-space-tenunits);
   align-items: center;
   padding-top: var(--dl-space-space-fiveunits);
   padding-left: var(--dl-space-space-fiveunits);
@@ -114,7 +115,6 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-fiveunits);
   justify-content: flex-end;
-  background-color: #ffffff;
 }
 .scrollable {
   width: 100%;
@@ -136,7 +136,7 @@
   text-decoration: none;
 }
 .card-Text {
-  font-size: 16px;
+  font-size: 24px;
   font-style: normal;
   font-family: Noto Sans;
   font-weight: 400;
@@ -154,16 +154,16 @@
   text-decoration: none;
 }
 .card-Heading {
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   font-family: Overpass;
   font-weight: 700;
   line-height: 1.55;
-  text-transform: none;
+  text-transform: uppercase;
   text-decoration: none;
 }
 .navbar-Item {
-  font-size: 28px;
+  font-size: 24px;
   font-family: Overpass;
   font-weight: 700;
   line-height: 1.55;

@@ -8,7 +8,7 @@
   flex-direction: row;
   justify-content: flex-end;
   list-style-type: disc;
-  background-image: linear-gradient(45deg, rgb(252, 0, 255) 0.00%,rgb(6, 6, 6) 100.00%);
+  background-image: linear-gradient(45deg, rgb(255, 0, 208) 0.00%,rgb(127, 36, 166) 33.00%,rgb(127, 36, 166) 33.00%,rgb(6, 6, 6) 100.00%);
   list-style-image: none;
   list-style-position: outside;
 }
@@ -21,9 +21,10 @@
 .White-Card {
   width: 100%;
   display: flex;
+  padding: 50px;
   direction: ltr;
   align-self: flex-end;
-  margin-top: 50px;
+  margin-top: var(--dl-space-space-tenunits);
   align-items: center;
   padding-top: var(--dl-space-space-fiveunits);
   padding-left: var(--dl-space-space-fiveunits);
@@ -41,8 +42,8 @@
   flex-direction: row;
 }
 .image {
-  width: 300px;
-  height: 100%;
+  width: 200px;
+  height: 250px;
   align-self: center;
   object-fit: cover;
 }
@@ -56,11 +57,12 @@
   padding-left: var(--dl-space-space-fiveunits);
   padding-right: var(--dl-space-space-fiveunits);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-fiveunits);
+  padding-bottom: 0px;
   justify-content: flex-end;
   background-color: #ffffff;
 }
 .text {
+  width: 100%;
   align-self: flex-start;
 }
 .container3 {
@@ -69,8 +71,13 @@
   display: flex;
   align-items: flex-start;
 }
+.text02 {
+  width: 100%;
+  height: 100%;
+}
 .White-Card1 {
   direction: ltr;
+  margin-top: var(--dl-space-space-fiveunits);
 }
 .Format-Card {
   width: 100%;
@@ -81,17 +88,31 @@
 }
 .Text-Container {
   width: 50%;
+  height: 100%;
   display: flex;
   align-self: flex-start;
   align-items: flex-start;
   margin-right: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.Text08 {
+.Title {
   align-self: flex-start;
 }
-.text21 {
-  margin-top: var(--dl-space-space-fiveunits);
+.container4 {
+  color: #ffffff;
+  width: 100%;
+  height: 323px;
+  display: flex;
+  flex-direction: column;
+  mix-blend-mode: difference;
+  justify-content: flex-start;
+}
+.Link {
+  align-self: flex-end;
+  text-decoration: none;
+}
+.text20 {
+  text-decoration: underline;
 }
 .Image1 {
   width: 100%;
@@ -101,7 +122,6 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  background-color: #ffffff;
 }
 .image2 {
   flex: 0;
@@ -110,7 +130,7 @@
   object-fit: cover;
 }
 .White-Card2 {
-  height: 396px;
+  direction: ltr;
 }
 .Format-Card1 {
   width: 100%;
@@ -120,14 +140,34 @@
   flex-direction: row;
 }
 .Text-Container1 {
-  width: 30%;
+  width: 50%;
+  height: 100%;
   display: flex;
   align-self: flex-start;
   align-items: flex-start;
+  margin-right: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.Text26 {
+.Title1 {
   align-self: flex-start;
+}
+.container5 {
+  color: #ffffff;
+  width: 100%;
+  height: 323px;
+  display: flex;
+  flex-direction: column;
+  mix-blend-mode: difference;
+  justify-content: flex-start;
+}
+.Link1 {
+  font-size: 28px;
+  align-self: flex-end;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
 .Image3 {
   width: 100%;
@@ -137,41 +177,106 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  background-color: #ffffff;
 }
 .image4 {
+  width: 100%;
+  object-fit: cover;
+}
+.White-Card3 {
+  direction: ltr;
+}
+.Format-Card2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.Text-Container2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+}
+.Title2 {
+  align-self: flex-start;
+}
+.text25 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Noto Sans;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 1;
+  text-transform: none;
+  text-decoration: none;
+}
+.container6 {
+  color: #ffffff;
+  width: 100%;
+  height: 323px;
+  display: flex;
+  flex-direction: column;
+  mix-blend-mode: difference;
+  justify-content: flex-start;
+}
+.Link2 {
+  font-size: 28px;
+  align-self: flex-end;
+  font-family: Overpass;
+  font-weight: 400;
+  line-height: 1.55;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.Image5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.image6 {
   flex: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 .Sidebar {
-  width: 400px;
+  width: 378px;
   height: 780px;
   display: flex;
   overflow: auto;
-  padding-top: 42px;
+  padding-top: 74px;
   padding-left: var(--dl-space-space-fiveunits);
   padding-right: 50px;
   flex-direction: column;
-  padding-bottom: 42px;
+  padding-bottom: 74px;
 }
 .Nav {
   color: white;
   position: fixed;
   mix-blend-mode: difference;
 }
-.container4 {
+.container7 {
+  width: 194px;
   display: flex;
   align-items: flex-start;
-  margin-right: 50px;
+  margin-right: 29px;
   flex-direction: column;
 }
-.link {
+.link4 {
+  font-style: normal;
   text-decoration: none;
 }
-.text30 {
-  font-style: normal;
+.link5 {
+  text-decoration: none;
 }
 @media(max-width: 991px) {
   .White-Card {
@@ -181,5 +286,10 @@
 @media(max-width: 767px) {
   .Sidebar {
     height: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .Sidebar {
+    display: none;
   }
 }
