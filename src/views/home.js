@@ -91,11 +91,18 @@ const Home = () => {
               </div>
             </div>
             <div className={styles['Image1']}>
-              <img
-                alt="image"
-                src="/playground_assets/scraper-1200w.png"
-                className={styles['image2']}
-              />
+              <a
+                href="https://github.com/kallenhager/metacritic_scraper"
+                target="_blank"
+                rel="noreferrer noopener"
+                className={styles['link1']}
+              >
+                <img
+                  alt="image"
+                  src="/playground_assets/scraper-1200w.png"
+                  className={styles['image2']}
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -127,7 +134,7 @@ const Home = () => {
                   href="https://docs.google.com/document/d/1vtWn-o7sblhUrK1HUBInWz8Kg9bGAFtm/edit?usp=sharing&amp;ouid=106166205784524408384&amp;rtpof=true&amp;sd=true"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className={styles['Link1']}
+                  className={styles['Link2']}
                 >
                   GooGle DoCs
                 </a>
@@ -183,7 +190,7 @@ const Home = () => {
                   href="https://1drv.ms/w/s!Ai843pWZk8qtgfpOsdHPa2Nm0m-ezA?e=0UVF17"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className={` ${styles['Link2']} ${projectStyles['link']} `}
+                  className={` ${styles['Link3']} ${projectStyles['link']} `}
                 >
                   WORD ONLINE
                 </a>
@@ -204,7 +211,7 @@ const Home = () => {
         >
           <div className={styles['Format-Card3']}>
             <div className={styles['container08']}>
-              <a href="#hi" className={styles['Link3']}>
+              <a href="#hi" className={styles['Link4']}>
                 <span>Back to TOP</span>
               </a>
             </div>
@@ -222,13 +229,13 @@ const Home = () => {
             </a>
             <a
               href="#erp"
-              className={` ${styles['link5']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
+              className={` ${styles['link6']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
             >
               IMPLICIT ATTITUDES ERP EXAMINATION
             </a>
             <a
               href="#review"
-              className={` ${styles['link6']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
+              className={` ${styles['link7']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
             >
               MINOR CANNABINIODS REVIEW
             </a>
