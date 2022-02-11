@@ -108,7 +108,7 @@ const Home = () => {
                   href="https://github.com/kallenhager/metacritic_scraper"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className={` ${styles['Link02']} ${projectStyles['link']} ${projectStyles['link']} `}
+                  className={` ${styles['Link02']} ${projectStyles['link']} `}
                 >
                   <span className={styles['text19']}>Github</span>
                 </a>
@@ -161,7 +161,7 @@ const Home = () => {
                   href="https://docs.google.com/document/d/1vtWn-o7sblhUrK1HUBInWz8Kg9bGAFtm/edit?usp=sharing&amp;ouid=106166205784524408384&amp;rtpof=true&amp;sd=true"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className={styles['Link04']}
+                  className={` ${styles['Link04']} ${projectStyles['link']} `}
                 >
                   GooGle DoCs
                 </a>
@@ -227,7 +227,7 @@ const Home = () => {
                   href="https://1drv.ms/w/s!Ai843pWZk8qtgfpOsdHPa2Nm0m-ezA?e=0UVF17"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className={` ${styles['Link06']} ${projectStyles['link']} `}
+                  className={` ${styles['Link06']} ${projectStyles['link']} ${projectStyles['link']} `}
                 >
                   WORD ONLINE
                 </a>
@@ -255,7 +255,7 @@ const Home = () => {
         >
           <div className={styles['Format-Card3']}>
             <div className={styles['container09']}>
-              <a href="#hi" className={styles['Link08']}>
+              <a href="#hi" className={projectStyles['bottomlink']}>
                 <span>Back to TOP</span>
               </a>
             </div>
