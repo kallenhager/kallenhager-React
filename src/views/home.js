@@ -61,12 +61,12 @@ const Home = () => {
               </span>
               <span className={projectStyles['card-Text']}>
                 <span>
-                  Scraping data to answer the following questions for PC games:
+                  I scraped critic scores from Metacritic to answer the
+                  following questions:
                 </span>
                 <br></br>
                 <span></span>
                 <br></br>
-                <span></span>
                 <span>
                   Should a videogame publisher/developer pay attention to critic
                   reviews?
@@ -85,7 +85,7 @@ const Home = () => {
                   rel="noreferrer noopener"
                   className={` ${styles['Link']} ${projectStyles['link']} ${projectStyles['link']} `}
                 >
-                  <span className={styles['text20']}>Github</span>
+                  <span className={styles['text19']}>Github</span>
                 </a>
               </div>
             </div>
@@ -155,7 +155,7 @@ const Home = () => {
                   cannabinoids
                 </span>
               </span>
-              <span className={styles['text25']}>
+              <span className={styles['text24']}>
                 <span>
                   With the passage of 2018 Agriculture Improvement Act the
                   United States legalized the all cannabis-derived cannabinoids
