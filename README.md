@@ -1,1 +1,1 @@
-https://kallenhager.netlify.app/
+kallenhager.netlify.app/
