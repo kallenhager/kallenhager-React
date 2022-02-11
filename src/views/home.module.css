@@ -8,7 +8,7 @@
   flex-direction: row;
   justify-content: flex-end;
   list-style-type: disc;
-  background-image: linear-gradient(45deg, rgb(255, 0, 208) 0.00%,rgb(127, 36, 166) 33.00%,rgb(127, 36, 166) 33.00%,rgb(6, 6, 6) 100.00%);
+  background-image: linear-gradient(45deg, rgb(255, 0, 208) 0.00%,rgb(127, 36, 166) 51.00%,rgb(127, 36, 166) 48.00%,rgb(6, 6, 6) 100.00%);
   list-style-image: none;
   list-style-position: outside;
 }
@@ -105,6 +105,7 @@
 }
 .Title {
   align-self: flex-start;
+  text-decoration: none;
 }
 .container05 {
   color: #ffffff;
@@ -131,7 +132,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.link1 {
+.link01 {
   display: contents;
 }
 .image2 {
@@ -162,6 +163,7 @@
 }
 .Title1 {
   align-self: flex-start;
+  text-decoration: none;
 }
 .container06 {
   color: #ffffff;
@@ -172,7 +174,7 @@
   mix-blend-mode: difference;
   justify-content: flex-start;
 }
-.Link2 {
+.Link02 {
   font-size: 28px;
   align-self: flex-end;
   font-family: Overpass;
@@ -190,9 +192,13 @@
   flex-direction: row;
   justify-content: center;
 }
+.link03 {
+  display: contents;
+}
 .image4 {
   width: 100%;
   object-fit: cover;
+  text-decoration: none;
 }
 .White-Card3 {
   direction: ltr;
@@ -215,6 +221,7 @@
 }
 .Title2 {
   align-self: flex-start;
+  text-decoration: none;
 }
 .text24 {
   font-size: 16px;
@@ -235,7 +242,7 @@
   mix-blend-mode: difference;
   justify-content: flex-start;
 }
-.Link3 {
+.Link04 {
   font-size: 28px;
   align-self: flex-end;
   font-family: Overpass;
@@ -254,11 +261,15 @@
   justify-content: center;
   background-color: #ffffff;
 }
+.link05 {
+  display: contents;
+}
 .image6 {
   flex: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  text-decoration: none;
 }
 .White-Card4 {
   margin-top: 0px;
@@ -278,7 +289,7 @@
   mix-blend-mode: difference;
   justify-content: center;
 }
-.Link4 {
+.Link06 {
   font-size: 28px;
   font-family: Overpass;
   font-weight: 400;
@@ -309,11 +320,11 @@
   margin-right: 29px;
   flex-direction: column;
 }
-.link6 {
+.link08 {
   font-style: normal;
   text-decoration: none;
 }
-.link7 {
+.link09 {
   text-decoration: none;
 }
 @media(max-width: 991px) {

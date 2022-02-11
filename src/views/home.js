@@ -55,11 +55,14 @@ const Home = () => {
         >
           <div className={styles['Format-Card']}>
             <div className={styles['Text-Container']}>
-              <span
+              <a
+                href="https://github.com/kallenhager/metacritic_scraper"
+                target="_blank"
+                rel="noreferrer noopener"
                 className={` ${styles['Title']} ${projectStyles['card-Heading']} `}
               >
                 <span>Metacritic Scrape &amp; ANalysis</span>
-              </span>
+              </a>
               <span className={projectStyles['card-Text']}>
                 <span>
                   I scraped critic scores from Metacritic to answer the
@@ -95,7 +98,7 @@ const Home = () => {
                 href="https://github.com/kallenhager/metacritic_scraper"
                 target="_blank"
                 rel="noreferrer noopener"
-                className={styles['link1']}
+                className={styles['link01']}
               >
                 <img
                   alt="image"
@@ -112,14 +115,17 @@ const Home = () => {
         >
           <div className={styles['Format-Card1']}>
             <div className={styles['Text-Container1']}>
-              <span
+              <a
+                href="https://docs.google.com/document/d/1vtWn-o7sblhUrK1HUBInWz8Kg9bGAFtm/edit?usp=sharing&amp;ouid=106166205784524408384&amp;rtpof=true&amp;sd=true"
+                target="_blank"
+                rel="noreferrer noopener"
                 className={` ${styles['Title1']} ${projectStyles['card-Heading']} `}
               >
                 <span>
-                  Implicit and Explicit Attitudes Toward LGBT Individuals â An
+                  Implicit and Explicit Attitudes Toward LGBT Individuals - An
                   ERP Examination Using Responses to Emotional Images and Reward
                 </span>
-              </span>
+              </a>
               <span className={projectStyles['card-Text']}>
                 <span>
                   This is my undergraduate thesis project. I cleaned up some
@@ -134,18 +140,25 @@ const Home = () => {
                   href="https://docs.google.com/document/d/1vtWn-o7sblhUrK1HUBInWz8Kg9bGAFtm/edit?usp=sharing&amp;ouid=106166205784524408384&amp;rtpof=true&amp;sd=true"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className={styles['Link2']}
+                  className={styles['Link02']}
                 >
                   GooGle DoCs
                 </a>
               </div>
             </div>
             <div className={styles['Image3']}>
-              <img
-                alt="image"
-                src="/playground_assets/screenshot%202022-02-10%20190249-1200w.png"
-                className={styles['image4']}
-              />
+              <a
+                href="https://docs.google.com/document/d/1vtWn-o7sblhUrK1HUBInWz8Kg9bGAFtm/edit?usp=sharing&amp;ouid=106166205784524408384&amp;rtpof=true&amp;sd=true"
+                target="_blank"
+                rel="noreferrer noopener"
+                className={styles['link03']}
+              >
+                <img
+                  alt="image"
+                  src="/playground_assets/screenshot%202022-02-10%20190249-1200w.png"
+                  className={styles['image4']}
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -155,14 +168,17 @@ const Home = () => {
         >
           <div className={styles['Format-Card2']}>
             <div className={styles['Text-Container2']}>
-              <span
+              <a
+                href="https://1drv.ms/w/s!Ai843pWZk8qtgfpOsdHPa2Nm0m-ezA?e=0UVF17"
+                target="_blank"
+                rel="noreferrer noopener"
                 className={` ${styles['Title2']} ${projectStyles['card-Heading']} `}
               >
                 <span>
                   Review of the therapeutic potential of selected minor
                   cannabinoids
                 </span>
-              </span>
+              </a>
               <span className={styles['text24']}>
                 <span>
                   With the passage of 2018 Agriculture Improvement Act the
@@ -190,18 +206,25 @@ const Home = () => {
                   href="https://1drv.ms/w/s!Ai843pWZk8qtgfpOsdHPa2Nm0m-ezA?e=0UVF17"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className={` ${styles['Link3']} ${projectStyles['link']} `}
+                  className={` ${styles['Link04']} ${projectStyles['link']} `}
                 >
                   WORD ONLINE
                 </a>
               </div>
             </div>
             <div className={styles['Image5']}>
-              <img
-                alt="image"
-                src="/playground_assets/screenshot%202022-02-10%20200121-1200w.png"
-                className={styles['image6']}
-              />
+              <a
+                href="https://1drv.ms/w/s!Ai843pWZk8qtgfpOsdHPa2Nm0m-ezA?e=0UVF17"
+                target="_blank"
+                rel="noreferrer noopener"
+                className={styles['link05']}
+              >
+                <img
+                  alt="image"
+                  src="/playground_assets/screenshot%202022-02-10%20200121-1200w.png"
+                  className={styles['image6']}
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -211,7 +234,7 @@ const Home = () => {
         >
           <div className={styles['Format-Card3']}>
             <div className={styles['container08']}>
-              <a href="#hi" className={styles['Link4']}>
+              <a href="#hi" className={styles['Link06']}>
                 <span>Back to TOP</span>
               </a>
             </div>
@@ -229,13 +252,13 @@ const Home = () => {
             </a>
             <a
               href="#erp"
-              className={` ${styles['link6']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
+              className={` ${styles['link08']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
             >
               IMPLICIT ATTITUDES ERP EXAMINATION
             </a>
             <a
               href="#review"
-              className={` ${styles['link7']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
+              className={` ${styles['link09']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
             >
               MINOR CANNABINIODS REVIEW
             </a>
