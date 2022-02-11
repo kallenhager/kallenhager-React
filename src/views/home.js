@@ -34,15 +34,36 @@ const Home = () => {
                     processing, and health. Last May I completed a B.S. in
                     Biomedical Sciences and B.A. in Psychology from the
                     University of South Florida.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
                   </span>
-                  <br></br>
-                  <span></span>
-                  <br></br>
+                </span>
+              </div>
+              <div className={styles['Links']}>
+                <a
+                  href="https://www.linkedin.com/in/kallenhager/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className={` ${styles['link']} ${projectStyles['headerLink']} `}
+                >
+                  LinkedIn
+                </a>
+                <span
+                  className={` ${styles['text04']} ${projectStyles['headingText']} `}
+                >
+                  <span>|</span>
+                </span>
+                <a
+                  href="https://github.com/kallenhager"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className={` ${styles['link01']} ${projectStyles['headerLink']} `}
+                >
+                  Github
+                </a>
+              </div>
+              <div className={styles['container05']}>
+                <span
+                  className={` ${styles['text06']} ${projectStyles['headingText']} `}
+                >
                   <span>Here&apos;s what I&apos;ve been working on:</span>
                 </span>
               </div>
@@ -82,12 +103,12 @@ const Home = () => {
                   Which critic&apos;s scores correlate best with sales?
                 </span>
               </span>
-              <div className={styles['container05']}>
+              <div className={styles['container06']}>
                 <a
                   href="https://github.com/kallenhager/metacritic_scraper"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className={` ${styles['Link']} ${projectStyles['link']} ${projectStyles['link']} `}
+                  className={` ${styles['Link02']} ${projectStyles['link']} ${projectStyles['link']} `}
                 >
                   <span className={styles['text19']}>Github</span>
                 </a>
@@ -98,7 +119,7 @@ const Home = () => {
                 href="https://github.com/kallenhager/metacritic_scraper"
                 target="_blank"
                 rel="noreferrer noopener"
-                className={styles['link01']}
+                className={styles['link03']}
               >
                 <img
                   alt="image"
@@ -135,12 +156,12 @@ const Home = () => {
                   implicit measures of sexual prejudice
                 </span>
               </span>
-              <div className={styles['container06']}>
+              <div className={styles['container07']}>
                 <a
                   href="https://docs.google.com/document/d/1vtWn-o7sblhUrK1HUBInWz8Kg9bGAFtm/edit?usp=sharing&amp;ouid=106166205784524408384&amp;rtpof=true&amp;sd=true"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className={styles['Link02']}
+                  className={styles['Link04']}
                 >
                   GooGle DoCs
                 </a>
@@ -151,7 +172,7 @@ const Home = () => {
                 href="https://docs.google.com/document/d/1vtWn-o7sblhUrK1HUBInWz8Kg9bGAFtm/edit?usp=sharing&amp;ouid=106166205784524408384&amp;rtpof=true&amp;sd=true"
                 target="_blank"
                 rel="noreferrer noopener"
-                className={styles['link03']}
+                className={styles['link05']}
               >
                 <img
                   alt="image"
@@ -201,12 +222,12 @@ const Home = () => {
                   confidently recommended by clinicians.
                 </span>
               </span>
-              <div className={styles['container07']}>
+              <div className={styles['container08']}>
                 <a
                   href="https://1drv.ms/w/s!Ai843pWZk8qtgfpOsdHPa2Nm0m-ezA?e=0UVF17"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className={` ${styles['Link04']} ${projectStyles['link']} `}
+                  className={` ${styles['Link06']} ${projectStyles['link']} `}
                 >
                   WORD ONLINE
                 </a>
@@ -217,7 +238,7 @@ const Home = () => {
                 href="https://1drv.ms/w/s!Ai843pWZk8qtgfpOsdHPa2Nm0m-ezA?e=0UVF17"
                 target="_blank"
                 rel="noreferrer noopener"
-                className={styles['link05']}
+                className={styles['link07']}
               >
                 <img
                   alt="image"
@@ -233,8 +254,8 @@ const Home = () => {
           className={` ${styles['White-Card4']} ${projectStyles['backtotop']} ${projectStyles['projectbox']} `}
         >
           <div className={styles['Format-Card3']}>
-            <div className={styles['container08']}>
-              <a href="#hi" className={styles['Link06']}>
+            <div className={styles['container09']}>
+              <a href="#hi" className={styles['Link08']}>
                 <span>Back to TOP</span>
               </a>
             </div>
@@ -243,7 +264,7 @@ const Home = () => {
       </div>
       <div className={styles['Sidebar']}>
         <nav className={styles['Nav']}>
-          <div className={styles['container09']}>
+          <div className={styles['container10']}>
             <a
               href="#metacritic"
               className={` ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
@@ -252,13 +273,13 @@ const Home = () => {
             </a>
             <a
               href="#erp"
-              className={` ${styles['link08']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
+              className={` ${styles['link10']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
             >
               IMPLICIT ATTITUDES ERP EXAMINATION
             </a>
             <a
               href="#review"
-              className={` ${styles['link09']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
+              className={` ${styles['link11']} ${projectStyles['navbar-Item']} ${projectStyles['navitem']} ${projectStyles['navbar-Item']} `}
             >
               MINOR CANNABINIODS REVIEW
             </a>
