@@ -129,6 +129,13 @@
 .backtotop {
   direction: ltr;
 }
+.headerLink {
+  font-size: 22px;
+  font-family: Noto Sans;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
 .headingText {
   font-size: 20px;
   font-family: Noto Sans;
@@ -173,21 +180,6 @@
   text-transform: none;
   text-decoration: none;
 }
-.hi {
-  font-size: 48px;
-  font-family: Overpass;
-  font-weight: 900;
-  line-height: 1.22;
-  text-transform: none;
-  text-decoration: none;
-}
-.headerLink {
-  font-size: 22px;
-  font-family: Noto Sans;
-  font-weight: 700;
-  text-transform: capitalize;
-  text-decoration: underline;
-}
 .bottomlink {
   font-size: 20px;
   font-family: Overpass;
@@ -195,6 +187,14 @@
   line-height: 1.55;
   text-transform: uppercase;
   text-decoration: underline;
+}
+.hi {
+  font-size: 48px;
+  font-family: Overpass;
+  font-weight: 900;
+  line-height: 1.22;
+  text-transform: none;
+  text-decoration: none;
 }
 @media(max-width: 991px) {
   .projectbox {
