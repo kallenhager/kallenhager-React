@@ -204,7 +204,7 @@ const Home = () => {
                 <span>
                   With the passage of 2018 Agriculture Improvement Act the
                   United States legalized the all cannabis-derived cannabinoids
-                  apart from Î-9-THC. These minor cannabinoids are now being
+                  apart from delta-9-THC. These minor cannabinoids are now being
                   sold and utilized in concentrations higher than ever seen
                   before in whole-plant preparations. Minor cannabinoid products
                   currently available to the public demonstrate considerable
