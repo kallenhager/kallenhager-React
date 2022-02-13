@@ -153,7 +153,7 @@ const Home = () => {
                   data in from an incomplete EEG experiment on homonegativity,
                   prejudice, and sexual imagery. I used R and SPSS to examine
                   correlations between valence rated images and proposed
-                  implicit measures of sexual prejudice.
+                  implicit measures of sexual prejudice
                 </span>
               </span>
               <div className={styles['container07']}>

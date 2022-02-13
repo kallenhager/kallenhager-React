@@ -76,7 +76,7 @@
 .container04 {
   width: 100%;
   height: auto;
-  display: flex;
+  display: none;
   align-items: flex-start;
 }
 .text02 {
@@ -87,25 +87,34 @@
 .Links {
   height: auto;
   display: flex;
-  align-self: flex-end;
+  align-self: flex-start;
   align-items: flex-start;
   flex-direction: row;
 }
 .link {
   width: 100%;
-  margin: var(--dl-space-space-doubleunit);
+  margin-top: var(--dl-space-space-doubleunit);
   line-height: 1.55;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-doubleunit);
   letter-spacing: 2;
 }
 .text04 {
   width: 100%;
-  margin: var(--dl-space-space-doubleunit);
+  margin-top: var(--dl-space-space-doubleunit);
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-doubleunit);
 }
 .link01 {
   width: 100%;
   height: 100%;
-  margin: var(--dl-space-space-doubleunit);
+  margin-top: var(--dl-space-space-doubleunit);
   line-height: 1.55;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-doubleunit);
+  margin-bottom: var(--dl-space-space-doubleunit);
   letter-spacing: 2;
 }
 .container05 {
