@@ -242,7 +242,7 @@ const Home = () => {
               >
                 <img
                   alt="image"
-                  src="/playground_assets/screenshot%202022-02-10%20200121-1200w.png"
+                  src="/playground_assets/reviewpaper-1200w.png"
                   className={styles['image6']}
                 />
               </a>
