@@ -196,7 +196,7 @@ const Home = () => {
                 className={` ${styles['Title2']} ${projectStyles['card-Heading']} `}
               >
                 <span>
-                  Review of the therapeutic potential of selected minor
+                  Reviewing the therapeutic potential of selected minor
                   cannabinoids
                 </span>
               </a>
