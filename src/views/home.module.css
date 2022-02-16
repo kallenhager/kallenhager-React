@@ -139,7 +139,7 @@
   flex-direction: row;
 }
 .Text-Container {
-  width: 50%;
+  width: 70%;
   height: 100%;
   display: flex;
   align-self: flex-start;
@@ -196,7 +196,7 @@
   flex-direction: row;
 }
 .Text-Container1 {
-  width: 50%;
+  width: 70%;
   height: 100%;
   display: flex;
   align-self: flex-start;
@@ -248,7 +248,7 @@
   flex-direction: row;
 }
 .Text-Container2 {
-  width: 50%;
+  width: 70%;
   height: 100%;
   display: flex;
   align-self: flex-start;

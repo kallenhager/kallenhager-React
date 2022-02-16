@@ -149,8 +149,8 @@ const Home = () => {
               </a>
               <span className={projectStyles['card-Text']}>
                 <span>
-                  This is my undergraduate thesis project. I cleaned up some
-                  data in from an incomplete EEG experiment on homonegativity,
+                  This is my undergraduate thesis project. I cleaned data in
+                  from an incomplete EEG experiment on homonegativity,
                   prejudice, and sexual imagery. I used R and SPSS to examine
                   correlations between valence rated images and proposed
                   implicit measures of sexual prejudice
